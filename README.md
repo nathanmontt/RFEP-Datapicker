@@ -52,6 +52,7 @@ A seção abaixo foi adicionada para caso queira verificar algum conteúdo de es
 *Tipo do Estudo* | Nome do Artigo
 :---------: | :------:
 **WebKit** | <a href="https://dev.to/codeclown/styling-a-native-date-input-into-a-custom-no-library-datepicker-2in">Styling a native date input into a custom, no-library datepicker</a> <br> <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/WebKit_Extensions">-webkit-prefixed CSS extensions</a>
+**CSS** | <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/box-shadow">box-shadow</a>
 **Stackoverflow Questions** | <a href="https://stackoverflow.com/questions/14946091/are-there-any-style-options-for-the-html5-date-picker">Are there any style options for the HTML5 Date picker?</a> <br> <a href="https://stackoverflow.com/questions/69006982/how-to-customize-html5-date-picker">How to customize HTML5 date picker</a>
 **roadmap.sh** | O link sobre como o projeto pode ser encontrado <a href="https://roadmap.sh/projects/datepicker-ui">aqui</a>
 
