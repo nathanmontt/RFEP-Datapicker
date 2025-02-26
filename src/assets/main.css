@@ -39,24 +39,36 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-
-    background: linear-gradient(60deg, rgb(39 28 86) 0%, rgb(0 85 96) 100%);
+}
+span {
+    margin: 0 var(--thMeasure) 0 var(--thMeasure);
 }
 
-input[type="date"]::-webkit-inner-spin-button,
-input[type="date"]::-webkit-calendar-picker-indicator {
-    filter: invert(1);
+main {
 }
 
-input {
-    background-color: var(--primary);
-    border-radius: 10px;
+.container-input-date {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--primary);
+}
+
+.container-input-date .container-text-dates {
+    display: flex;
+    margin-right: 5em;
+}
+
+/* .container-text-dates #day {}
+.container-text-dates #month {}
+.container-text-dates #year {} */
+
+.container-input-date .calendar-icon {
+    width: 1.5em;
     border: none;
-    line-height: 80px;
-    width: 400px;
-    padding: 0 20px;
-    box-shadow: .4em .3em 5px rgb(0 0 0 / 60%);
-    outline: none;
-    color: white;
-    font-size: 22px;
+    cursor: pointer;
+    background-color: transparent;
 }
+
+/* .calendar-icon #cal-icon {} */
+
+/* CALENDAR ITSELF */
