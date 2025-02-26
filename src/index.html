@@ -26,9 +26,9 @@
     <main>
         <div class="container-input-date">
             <div class="container-text-dates">
-                <p id="day">25<span>/</span></p>
-                <p id="month">02<span>/</span></p>
-                <p id="year">2025</p>
+                <p id="day">dd<span>/</span></p>
+                <p id="month">mm<span>/</span></p>
+                <p id="year">yyyy</p>
             </div>
 
             <button class="calendar-icon">
@@ -39,6 +39,72 @@
                     <path d="M200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-80h80v80h320v-80h80v80h40q33 0 56.5 23.5T840-720v560q0 33-23.5 56.5T760-80H200Zm0-80h560v-400H200v400Zm0-480h560v-80H200v80Zm0 0v-80 80Z"/>
                 </svg>
             </button>
+        </div>
+
+        <div class="container-calendar">
+            <section class="month-choice">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="#000000" id="left-arrow-icon"><path d="M560-240 320-480l240-240 56 56-184 184 184 184-56 56Z"/></svg>
+
+                <p class="month-itself">December 2022</p>
+
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="#000000" id="right-arrow-icon"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg>
+            </section>
+
+            <section class="days-week">
+                <section class="week">
+                    <p class="week-days">S</p>
+                    <p class="week-days">M</p>
+                    <p class="week-days">T</p>
+                    <p class="week-days">W</p>
+                    <p class="week-days">T</p>
+                    <p class="week-days">F</p>
+                    <p class="week-days">S</p>
+                </section>
+
+                <section class="month-numbers">
+                    <div class="container-first-row">
+                        <p class="day"></p>
+                        <p class="day"></p>
+                        <p class="day"></p>
+                        <p class="day"></p>
+                        <p class="day">1</p>
+                        <p class="day">2</p>
+                        <p class="day">3</p>
+                    </div>
+                    <div class="container-second-row">
+                        <p class="day">8</p>
+                        <p class="day">9</p>
+                        <p class="day">10</p>
+                        <p class="day">11</p>
+                        <p class="day">12</p>
+                        <p class="day">13</p>
+                        <p class="day">14</p>
+                    </div>
+                    <div class="container-third-row">
+                        <p class="day">15</p>
+                        <p class="day">16</p>
+                        <p class="day">17</p>
+                        <p class="day">18</p>
+                        <p class="day">19</p>
+                        <p class="day">20</p>
+                        <p class="day">21</p>
+                    </div>
+                    <div class="container-fourth-row">
+                        <p class="day">22</p>
+                        <p class="day">23</p>
+                        <p class="day">24</p>
+                        <p class="day">25</p>
+                        <p class="day">26</p>
+                        <p class="day">27</p>
+                        <p class="day">28</p>
+                    </div>
+                    <div class="container-fifth-row">
+                        <p class="day">29</p>
+                        <p class="day">30</p>
+                        <p class="day">31</p>
+                    </div>
+                </section>
+            </section>
         </div>
     </main>
 </body>
