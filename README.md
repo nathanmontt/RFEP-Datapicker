@@ -14,7 +14,7 @@ Projeto de Frontend do site <a href="https://roadmap.sh/">roadmap.sh</a>
 
 <h1 id="about">Sobre o Projeto</h1>
 
-Como o nome do repositório menciona, **RFEP-Datapicker** é um projeto de Frontend, trago pelo site <a href="https://roadmap.sh/">roadmap.sh</a>, onde o objetivo é montar um *datapicker*, nesse caso, um calendário.
+Como o nome do repositório menciona, **RFEP-Datepicker** é um projeto de Frontend, trago pelo site <a href="https://roadmap.sh/">roadmap.sh</a>, onde o objetivo é montar um *datepicker*, nesse caso, um calendário.
 
 
 <h1 id="abilities"> Habilidades Necessárias </h1>
