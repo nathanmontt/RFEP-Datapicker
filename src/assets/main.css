@@ -18,7 +18,7 @@
     --primary: #171717;
     --secondary: #ededed;
     --tertiary: #ababab;
-    --testimonialBoxOne: #2c2c2c;
+    --grayColor: #2c2c2c;
 
     /* Measures */
     --mainMeasure: 1em;
@@ -40,19 +40,20 @@ body {
     align-items: center;
     min-height: 100vh;
 }
+
 span {
-    margin: 0 var(--thMeasure) 0 var(--thMeasure);
 }
 
 .container-input-date {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid var(--primary);
+
+    margin: 0 0 var(--secMeasure) 0;
 }
 
 .container-input-date .container-text-dates {
     display: flex;
-    margin-right: 5em;
 }
 
 /* .container-text-dates #day {}
@@ -70,60 +71,63 @@ span {
 
 /* CALENDAR ITSELF */
 .container-calendar {
-    margin-top: var(--secMeasure);
+    /* margin-top: var(--mainMeasure); */
 }
 
 .container-calendar .month-choice {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: var(--mainMeasure);
 }
 
 .month-choice #left-arrow-icon, #right-arrow-icon {
-    width: 2em;
+    width: 1.5em;
+    cursor: pointer;
+}
+
+#left-arrow-icon {
+    margin-right: var(--secMeasure);
+}
+
+#right-arrow-icon {
+    margin-left: var(--secMeasure);
 }
 
 .month-choice .month-itself {
-    margin: 0 var(--secMainMeasure) 0 var(--secMainMeasure);
+    /* margin: 0 var(--secMainMeasure) 0 var(--secMainMeasure); */
 }
 
 .container-calendar .days-week {
-    width: 20em;
-    display: grid;
-    /* place-items: center; */
-    /* position: absolute; */
-    /* top: 0; */
-    /* bottom: 0; */
-    /* right: 0; */
-    /* left: 0; */
-    border: 3px solid blue;
+    /* border: 3px solid red; */
+    padding: var(--mainMeasure);
+    border: var(--diffMeasure) solid var(--grayColor);
 }
 
 .days-week .week {
     display: flex;
     justify-content: space-between;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: var(--rdMeasure);
+    font-size: var(--fontSizeParagraph);
 }
 
-.week .week-days {}
-.days-week .month-numbers {}
-
-.month-numbers .container-first-row, 
-    .container-second-row,
-    .container-third-row, 
-    .container-fourth-row, 
-    .container-fifth-row {
-        display: flex;
-        border: 3px solid red;
+.month-numbers {
+    display: flex;
+    justify-content: space-between;
 }
 
-/* .container-first-row,
+.month-numbers .container-first-row,
 .container-second-row,
 .container-third-row, 
 .container-fourth-row, 
-.container-fifth-row .day {
-    position: absolute;
-    top: 10em;
-    bottom: 10em;
-    right: 5em;
-    left: 5em;
-} */
+.container-fifth-row,
+.container-sixth-row,
+.container-seventh-row {
+    /* margin: var(--rdMeasure) var(--rdMeasure) var(--rdMeasure) var(--rdMeasure) */
+}
+
+.day {
+    cursor: pointer;
+}
